@@ -1,4 +1,4 @@
-const music = new Audio("music/game-minecraft-gaming-background-music-402451.mp3");
+const music = new Audio("game-minecraft-gaming-background-music-402451.mp3");
 music.loop = true; 
 music.play();
 
@@ -224,4 +224,5 @@ function removeItem(category, index) {
 }
 
 // Инициализация при загрузке страницы
+
 document.addEventListener('DOMContentLoaded', init);
